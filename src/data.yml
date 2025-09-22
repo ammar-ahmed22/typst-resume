@@ -22,6 +22,58 @@ contact:
     link: www.linkedin.com/in/ammarahmed2203
 
 sections:
+  - name: Technical Skills
+    type: Skills
+    content:
+      - name: Languages
+        skills:
+          - JavaScript
+          - TypeScript
+          - Rust
+          - Go
+          - Python
+          - HTML/CSS
+          - MATLAB
+          - C++
+          - LaTeX
+      - name: Developer Tools
+        skills:
+          - VS Code
+          - GitHub
+          - JIRA
+          - Google Firebase
+          - Heroku
+          - MongoDB Atlas
+          - AWS
+          - Fly.io
+      - name: Technologies/Frameworks
+        skills:
+          - React
+          - MongoDB
+          - Express
+          - Node.js
+          - THREE.js
+          - GraphQL
+          - Pandas
+          - Numpy
+          - Matplotlib
+          - SFML
+          - Git
+  - name: Education
+    type: Education
+    content:
+      - institution: University of Waterloo
+        start:
+          month: September
+          year: 2020
+        end:
+          month: May
+          year: 2026
+        degree: BASc. in Nanotechnology Engineering (Co-op)
+        location:
+          country: Canada
+          city: Waterloo
+          region: ON
   - name: Work Experience
     type: Experience
     content:
@@ -124,51 +176,28 @@ sections:
           - "Independently developed a comprehensive full-stack web application showcasing Microsoft Teams call data for *100+ employees* using React, GraphQL, MongoDB, and Chakra-UI."
           - Led the implementation of a sign-up code feature, overseeing front-end enhancements and authoring AWS Lambda functions.
           - Designed and implemented a streamlined front-end view for the web application using React and Material UI.
-      # - org:
-      #     name: University of Waterloo
-      #     link: https://uwaterloo.ca/centre-for-work-integrated-learning/
-      #   position: Developer
-      #   start:
-      #     month: May
-      #     year: 2021
-      #   end:
-      #     month: August
-      #     year: 2021
-      #   location:
-      #     country: Canada
-      #     city: Waterloo
-      #     region: ON
-      #   skills:
-      #     - HTML/CSS 
-      #     - JavaScript 
-      #     - Bootstrap
-      #   info:
-      #     - Developed dynamic course catalogs using HTML/CSS, JavaScript, and Bootstrap.
-      #     - Collaborated with Deloitte Human Capital consultants to enhance UI/UX for educational courses at University of Waterloo.
-      #     - "Implemented auto-scrolling for Bootstrap accordions using JavaScript across *100+ webpages in 10+ educational courses*."
-      #     - Streamlined team workflow through JavaScript automation services to boost efficiency.
   - name: Projects
     type: Project
     content:
-      # - name: ammarahmed.ca
-      #   link: https://ammarahmed.ca
-      #   info:
-      #    - Full-stack portfolio website implementing Notion as the CMS
-      #    - Implemented Notion SDK to use Notion as a read-only database for projects, blog posts, skills and experience.
-      #    - Created GraphQL API to access parsed Notion data for rendering.
-      #    - Front-end implemented using the React framework in conjunction with ChakraUI.
-      #   date:
-      #     month: September
-      #     year: 2021
-      #   skills:
-      #     - TypeScript
-      #     - Apollo
-      #     - Node.js
-      #     - React.js
-      #     - GraphQL
-      #     - Chakra-UI
-      #     - Notion
-      #     - TypeGraphQL
+      - name: ammarahmed.ca
+        link: https://ammarahmed.ca
+        info:
+          - Built and deployed a dynamic portfolio and blog with Next.js, TypeScript, TailwindCSS and Shadcn UI.
+          - Integrated Notion as a headless CMS via the Notion API for real-time content management.  
+          - Designed a responsive UI with TailwindCSS and Shadcn UI, including dark mode support.  
+          - Enhanced user experience with smooth animations and transitions using Framer Motion.
+        date:
+          month: September
+          year: 2021
+        skills:
+          - TypeScript
+          - React.js
+          - Next.js
+          - TailwindCSS
+          - Shadcn UI
+          - Notion
+          - Framer Motion
+          - Vercel
       - name: Pathfinder
         link: https://pathfinder.ammarahmed.ca
         info:
@@ -183,79 +212,3 @@ sections:
           - TypeScript
           - React.js
           - Chakra-UI
-      - name: Qalam
-        link: https://qalam-playground.web.app/ 
-        info:
-          - Developed an interpreted programming langauge from scratch with Urdu insipired syntax using Rust
-          - "Acheieved *500+ monthly downloads* on crates.io, showcasing growing developer adoption."
-          - Built a playground website to run Qalam code with a Rust backend and React frontend.
-          - Authored comprehensive documentation and examples, improving user onboarding and engagement.
-        date:
-          month: September
-          year: 2024
-        skills:
-          - Rust
-          - React
-  - name: Education
-    type: Education
-    content:
-      - institution: University of Waterloo
-        start:
-          month: September
-          year: 2020
-        end:
-          month: May
-          year: 2026
-        degree: BASc. in Nanotechnology Engineering (Co-op)
-        location:
-          country: Canada
-          city: Waterloo
-          region: ON
-  - name: Technical Skills
-    type: Skills
-    content:
-      - name: Languages
-        skills:
-          - JavaScript
-          - TypeScript
-          - Rust
-          - Go
-          - Python
-          - HTML/CSS
-          - MATLAB
-          - C++
-          - LaTeX
-      - name: Developer Tools
-        skills:
-          - VS Code
-          - GitHub
-          - JIRA
-          - Google Firebase
-          - Heroku
-          - MongoDB Atlas
-          - AWS
-          - Fly.io
-      - name: Technologies/Frameworks
-        skills:
-          - React
-          - MongoDB
-          - Express
-          - Node.js
-          - THREE.js
-          - GraphQL
-          - Pandas
-          - Numpy
-          - Matplotlib
-          - SFML
-          - Git
-  # - name: Honors and Awards
-  #   type: Awards
-  #   content:
-  #     - name: Hafiz-ul-Quran
-  #       org: Islamic Foundation of Toronto
-  #       date:
-  #         month: December
-  #         year: 2017
-  #       info:
-  #         - Memorization of 850 page holy book in classical Arabic
-  #         - Certified by the top Islamic Institute of Toronto
